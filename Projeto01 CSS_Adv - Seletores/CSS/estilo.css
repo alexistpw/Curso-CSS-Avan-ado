@@ -1,0 +1,46 @@
+/*\\\\\\\\\\\\\Seletor Universal///////////*/
+*
+{
+	/*border: 1px solid red;*/
+}
+
+h1				/*\\\\\Seletor de texto//////*/
+{
+	/*color: yellow;*/
+}
+
+.verde			/*\\\\\Seletor de Classe/////*/
+{
+	color: green;
+}
+
+#cabeçalho		/*\\\\\Seletor de ID/////*/
+{
+	border: 1px solid blue;
+}
+
+p.estilo		/*Seletor de Classe*/
+{
+	text-decoration: underline;
+}
+
+li>a		/*Seletor de filho, que permite formatar apenas elementos filhos*/
+{			/*Exemplo: formaação aplicada apenas aos links "<a>" contidos numa lista "<li>"*/
+	color: red;
+	text-decoration: none;
+}
+
+p a  		/*Seletor descendente, aplica formatação a todos os links "<a>" que estejam em algum*/
+{			/*ponto, dentro de um paragrafo "<p>"*/
+	color: brown;
+}
+
+h1+p 		/*Seletor adjacente, aplica formatação ao único "<p>" que vem logo em seguida de "<h1>"*/
+{			/*se houver algum.*/
+	color: magenta;
+}
+
+h2~p 		/*Seletor de irmão geral, aplica formatação a TODOS os "<p> que vem vizinho de "<h2>"*/
+{
+	color: pink;
+}

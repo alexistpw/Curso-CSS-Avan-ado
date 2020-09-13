@@ -1,0 +1,41 @@
+/* BARRA DE NAVEGAÇÃO VERTICAL */
+
+ul
+{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../Imagens/fundo-horizontal.png) repeat-x; /* repeat-none */
+    float: left; /* lista e linhas da lista devem flutuar pois o background da lista */
+}                /* não se aplicaria às linhas, pois ela flutuaria e nao pegaria o background */
+
+ul li
+{
+    float: left;
+}
+
+ul a
+{
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    background: url(../Imagens/divisor.png) repeat-y left top;
+    color: #fff;
+}
+
+ul a:hover
+{
+    color: #085662;
+    background: #44cade url(../Imagens/divisor.png) repeat-y left top;
+}
+
+.Home #home a
+{
+    color: #085662;
+    background: #44cade;
+    
+}

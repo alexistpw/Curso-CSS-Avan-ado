@@ -1,0 +1,95 @@
+/* \\\\\\\\\\\\\\Layout Fixo ///////////////////////*/
+
+body
+{
+    font-family: "Trebuchet MS", Helvetca, sans-serif;
+    background: #f2f2f2;
+}
+
+#container
+{
+    width: 85%/* 720px */;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+    max-width: 900px;
+    /* border: 1px solid red; */
+}
+
+#marca
+{
+    width: 100%;
+    height: 200px; /* Imagem de fundo com uma cor semelhante a da imagem, dando uma impressão ao usuário */
+    background: #225992 url(../Imagens/cabecalho2.jpg);
+    text-align: center; /* de que a imagem se expande quando o navegador é estendido para uma tela maior*/
+    line-height: 200px;
+}
+
+#conteudo
+{
+    width: 73% /* 520px */;
+    float: right;
+    /* border: 1px solid red; */
+}
+
+#cont_main
+{
+    width: 63%;/* 320px; */
+    float: left;
+    border: 1px solid red;
+}
+
+#cont_sec
+{
+    width: 34%;/* 180px; */
+    float: right;
+    background: #d1d1d1;
+    /* border: 1px solid red; */
+}
+
+#cont_sec h1, #cont_sec h2, #cont_sec h3, #cont_sec p
+{
+    padding: 0 20px;
+}
+
+#navegacao
+{
+    width: 24%/* 180px */;
+    float: left;
+    padding:20px 0;
+    background: #d1d1d1;
+    /* border: 1px solid red; */
+}
+
+#navegacao ul
+{
+    list-style: none;
+}
+
+#navegacao li a
+{
+    text-decoration: none;
+}
+
+#rodape
+{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+    line-height: 25px;
+    text-align: center;
+}
+
+/* #img
+
+    width: 90%;
+    overflow: hidden; esconde a parte da imagem que extravaza
+ */
+
+img.img
+{
+    width: 90%;
+    padding: 2%;
+    border: 1px solid red;
+    max-width: 600px; /* Limita imagem para seu tamanho máx,impedindo que imagem se deforme */
+}                     /* se o navegador for extendido demais  */

@@ -1,0 +1,48 @@
+/* BARRA DE NAVEGAÇÃO VERTICAL */
+
+ul
+{
+    /* border: 1px solid red; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* li
+/*  */
+    /* padding: 5px 20px; */
+    /* border: 1px solid red; */
+    /* background: url(../imagens/seta.png) no-repeat left center; */
+    
+/*  */ 
+
+ul a
+{
+    border: 1px solid red;
+    display: block;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
+    color: black;
+    width: 200px;
+    height: 40px;
+}
+                                    /* FORMA 1 DE MARCAR A PÁGINA */
+/* a:hover, .selec a  formatação aplicada a todos os <a> dentro de uma estrutura com seletor "class selec" */
+
+    /* background-position: right bottom; */
+    /* background-color: #f99200;      background-color aparece atrás da imagem */
+    /* color: white;                   asegurando que se a imagem nao carregar, uma cor semelhante aparecerá */
+
+
+                                    /* FORMA 2 DE MARCAR PÁGINA */
+a:hover, .Home #home a, .Serv #serv a, .Notic #notic a, .Sobre #sobre a, .Cont #cont a
+{                       
+    /* Config. aplicada apneas ao <a> dentro de uma id="home" */
+    /* dentro de uma class="Home" */
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}

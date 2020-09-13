@@ -1,0 +1,29 @@
+/* herança e Especficidade */
+body
+{
+    color: red; /* Cor aplicada a todo o conteudo do body - herança */
+    border: 1px solid blue; /* Aplicado apenas ao body*/
+}
+
+.pagina p
+{
+    color: yellow !important; /* !important priorisa o comando */
+}                               /* melhor nao usar */
+
+.pagina p /* seletor que se aplica a <p> contidos em elementos que tem classe .pagina */
+{           /* no caso, <div> */
+    color: rgb(112, 21, 21);
+} 
+
+
+/* Seletores específicos sobrepoe seletores mais gerais */
+/* Cor de h2 sobrepoe a cor do body */
+h2.teal /* classe aplicado dentro de h2 */
+{
+    color: green;
+}
+
+h2#amarelo
+{
+    color: yellow;
+}
